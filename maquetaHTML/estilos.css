@@ -1,0 +1,40 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: coral;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.logo img {
+  margin-right: 20px;
+}
+
+.logo_nombre {
+  color: black;
+  text-decoration: none;
+}
+
+*{
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif
+}
+
+#footer{
+  background: #CE5937;
+  background: -moz-linear-gradient(-45deg, #CE5937 0%, #88A40B 100%, #05C3C5 100%);
+  background: -webkit-linear-gradient(-45deg, #CE5937 0%, #88A40B 100%, #05C3C5 100%);
+  background: linear-gradient(135deg, #CE5937 0%, #88A40B 100%, #05C3C5 100%);
+}
